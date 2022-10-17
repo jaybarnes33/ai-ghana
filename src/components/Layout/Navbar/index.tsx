@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 const index = () => {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" fixed="top">
       <Container className="d-flex align-items-center">
         <Navbar.Brand href="#home">
           <Logo />

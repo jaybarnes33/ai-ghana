@@ -1,6 +1,7 @@
 @import "@fontsource/poppins";
 @import "@fontsource/poppins/800.css";
-
+@import "@fontsource/poppins/700.css";
+@import "aos/dist/aos.css";
 html,
 body {
   padding: 0;
@@ -9,6 +10,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.navbar {
+  background-color: #f4f4f4;
+}
 nav {
   a {
     color: black !important;
@@ -25,11 +29,13 @@ a {
 h1 {
   font-weight: bold;
 }
+h2 {
+  font-weight: 700;
+}
 * {
   box-sizing: border-box;
 }
 
-footer {
-  background-color: #c8dae4;
-  color: #476385;
+section {
+  padding: 3rem 0;
 }
