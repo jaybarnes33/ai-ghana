@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: #f4f4f4;
+  background-color: white;
 }
 nav {
   a {
@@ -38,4 +38,16 @@ h2 {
 
 section {
   padding: 3rem 0;
+}
+
+section:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.vision {
+  background-color: white !important;
+}
+
+footer {
+  background-color: #ccc;
 }

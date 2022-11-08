@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.scss";
 import vector from "../../public/jumbo-img.png";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -25,7 +26,11 @@ export default function Home() {
                   Artificial Intelligence in solving real problems in Ghana
                 </p>
                 <div className="flex gap-4" data-aos="zoom-out">
-                  <Button size="lg" className="btn-primary">
+                  <Button
+                    size="lg"
+                    className="btn-primary"
+                    style={{ borderRadius: 50 }}
+                  >
                     Join Us
                   </Button>
                 </div>
@@ -82,7 +87,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className={styles.main}>
+      <section>
         <Container>
           <Row className="d-flex align-items-center">
             <Col md={6}>
@@ -90,20 +95,14 @@ export default function Home() {
                 <h2 data-aos="flip-left">
                   Our <span className="text-danger">Mission</span>
                 </h2>
-                <ul>
-                  <li data-aos="flip-left" data-aos-delay={500}>
-                    Lorem
-                  </li>
-                  <li data-aos="flip-right" data-aos-delay={700}>
-                    Lorem
-                  </li>
-                  <li data-aos="flip-left" data-aos-delay={900}>
-                    Lorem
-                  </li>
-                  <li data-aos="flip-right" data-aos-delay={1100}>
-                    Lorem
-                  </li>
-                </ul>
+                <p data-aos="fade-up-right" data-aos-delay={1000}>
+                  To provide technical AI skills to students and tech
+                  enthusiasts to enable them in identifying and solving real
+                  problems in their communities/organizations using the skills
+                  acquired. In five to ten years, we aim to be the number one
+                  go-to organization/community for AI talents.{" "}
+                  <Link href="/">&rarr; Read more</Link>
+                </p>
               </div>
             </Col>
             <Col md={6} className="d-flex justify-content-center">
@@ -115,6 +114,34 @@ export default function Home() {
                 height={350}
                 objectFit="contain"
               />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="vision">
+        <Container>
+          <Row className="d-flex align-items-center">
+            <Col md={6} className="d-flex justify-content-center">
+              <Image
+                data-aos="flip-right"
+                src={vector}
+                alt=""
+                width={350}
+                height={350}
+                objectFit="contain"
+              />
+            </Col>
+            <Col md={6}>
+              <div>
+                <h2 data-aos="flip-left">
+                  Our <span className="text-danger">Vision</span>
+                </h2>
+                <p data-aos="fade-up-right">
+                  To provide technical AI skills to students and tech To promote
+                  the use of artificial intelligence in solving real-world
+                  problems in Ghana, Africa and beyond.
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>

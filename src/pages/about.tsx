@@ -14,19 +14,15 @@ const About = () => {
       <Container>
         <Row className="align-items-center">
           <Col className="mt-3">
-            <h2
-              className="text-primary"
-              data-aos="fade-up-right"
-              data-aos-delay={200}
-            >
+            <h2 className="text-primary" data-aos="fade-up-right">
               About Us
             </h2>
-            <p data-aos="fade-up-left" data-aos-delay={400}>
+            <p data-aos="fade-up-left">
               AI GHANA is a non-profit organization, run by the AI Ghana
               community, focused on promoting the use of Artificial Intelligence
               in solving real-world problems in Ghana, Africa and beyond.{" "}
             </p>
-            <p data-aos="fade-down-right" data-aos-delay={700}>
+            <p data-aos="fade-down-right">
               Artificial Intelligence (AI) has become very essential in recent
               times, as it has become one of the main tools used for solving
               major problems we face daily. Ghanaians, and Africans for that
@@ -36,11 +32,11 @@ const About = () => {
             </p>
           </Col>
         </Row>
-        <Row className="d-flex flex-row-reverse align-items-center">
+        <Row className="d-flex flex-row-reverse align-items-center my-2">
           <Col>
             <h2 className="text-primary">Our Mission</h2>
 
-            <p data-aos="fade-up-right" data-aos-delay={1000}>
+            <p data-aos="fade-up-right">
               To provide technical AI skills to students and tech enthusiasts to
               enable them in identifying and solving real problems in their
               communities/organizations using the skills acquired. In five to
@@ -49,21 +45,21 @@ const About = () => {
               use of MUM:
             </p>
             <ul>
-              <li className="my-3" data-aos="fade-down" data-aos-delay={1500}>
+              <li className="my-3" data-aos="fade-down">
                 <span className="text-success fw-bold">M</span>entorships: We
                 aim at providing mentorship to students and tech enthusiasts by:
                 <ul>
-                  <li data-aos="fade-right" data-aos-delay={1700}>
+                  <li data-aos="fade-right">
                     Running one-on-one mentor-mentee sessions resulting in
                     knowledge sharing and acquisition.
                   </li>
-                  <li data-aos="fade-up" data-aos-delay={1900}>
+                  <li data-aos="fade-up">
                     Adding them to our various research groups where they will
                     collaborate on AI projects to gain relevant skills. There
                     are varied outcomes here including research papers, software
                     applications etc.
                   </li>
-                  <li data-aos="fade-right" data-aos-delay={2300}>
+                  <li data-aos="fade-right">
                     Connecting the students with partner organizations where
                     they can work on real projects as interns. This results in
                     them being absorbed by these organizations by the end of
@@ -71,7 +67,7 @@ const About = () => {
                   </li>
                 </ul>
               </li>
-              <li className="my-2" data-aos="fade-down" data-aos-delay={2700}>
+              <li className="my-2" data-aos="fade-down">
                 <span className="fw-bold text-success">U</span>niversity
                 Chapters: We seek to create active AI Ghana local chapters in
                 all public universities (and interested private universities) in
@@ -79,7 +75,7 @@ const About = () => {
                 on the various AI concepts. Students will have relevant/
                 employable AI skills by the time they graduate.
               </li>
-              <li className="my-2" data-aos="fade-up" data-aos-delay={3000}>
+              <li className="my-2" data-aos="fade-up">
                 <span className="fw-bold text-success">M</span>eetups: We
                 organize conferences / workshops / bootcamps / hackathons with
                 the aim of providing an enabling environment for knowledge
@@ -88,6 +84,20 @@ const About = () => {
                 statistics and mathematics is gained through these activities.
               </li>
             </ul>
+          </Col>
+        </Row>
+        <Row className="my-2">
+          <Col>
+            <div>
+              <h2 data-aos="flip-left">
+                Our <span className="text-danger">Vision</span>
+              </h2>
+              <p data-aos="fade-up-right">
+                To provide technical AI skills to students and tech To promote
+                the use of artificial intelligence in solving real-world
+                problems in Ghana, Africa and beyond.
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>
