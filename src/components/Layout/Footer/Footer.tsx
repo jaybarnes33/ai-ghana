@@ -1,3 +1,4 @@
+import Socials from "@/components/Socials/Socials";
 import React from "react";
 import { Col, Container, Nav, Row } from "react-bootstrap";
 const Footer = () => {
@@ -9,7 +10,10 @@ const Footer = () => {
             <h4>AI GHANA</h4>
             <p>Promoting the use of AI in Ghana</p>
           </div>
-          <p>&copy; AI Ghana - {new Date().getFullYear()}</p>
+          <div>
+            <Socials />
+            <p>&copy; AI Ghana - {new Date().getFullYear()}</p>
+          </div>
         </div>
       </Container>
     </footer>

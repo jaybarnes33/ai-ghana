@@ -12,10 +12,10 @@ const About = () => {
       </Head>
       <Banner title="about" image="/about.jpg" />
       <Container>
-        <Accordion defaultActiveKey="0" className="mt-3" defaultValue="0">
+        <Accordion defaultActiveKey="0" className="my-3" defaultValue="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
-              <h2 data-aos="flip-left" className="text-dark">
+              <h2 className="text-dark">
                 About <span className="text-danger">AI Ghana</span>
               </h2>
             </Accordion.Header>
@@ -38,12 +38,12 @@ const About = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header>
-              <h2 data-aos="flip-left" className="text-dark">
+              <h2 className="text-dark">
                 Our <span className="text-danger">Mission</span>
               </h2>
             </Accordion.Header>
             <Accordion.Body>
-              <p data-aos="fade-up-right">
+              <p>
                 To provide technical AI skills to students and tech enthusiasts
                 to enable them in identifying and solving real problems in their
                 communities/organizations using the skills acquired. In five to
@@ -52,22 +52,22 @@ const About = () => {
                 the use of MUM:
               </p>
               <ul>
-                <li className="my-3" data-aos="fade-down">
+                <li className="my-3">
                   <span className="text-success fw-bold">M</span>entorships: We
                   aim at providing mentorship to students and tech enthusiasts
                   by:
                   <ul>
-                    <li data-aos="fade-right">
+                    <li>
                       Running one-on-one mentor-mentee sessions resulting in
                       knowledge sharing and acquisition.
                     </li>
-                    <li data-aos="fade-up">
+                    <li>
                       Adding them to our various research groups where they will
                       collaborate on AI projects to gain relevant skills. There
                       are varied outcomes here including research papers,
                       software applications etc.
                     </li>
-                    <li data-aos="fade-right">
+                    <li>
                       Connecting the students with partner organizations where
                       they can work on real projects as interns. This results in
                       them being absorbed by these organizations by the end of
@@ -75,7 +75,7 @@ const About = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="my-2" data-aos="fade-down">
+                <li className="my-2">
                   <span className="fw-bold text-success">U</span>niversity
                   Chapters: We seek to create active AI Ghana local chapters in
                   all public universities (and interested private universities)
@@ -83,7 +83,7 @@ const About = () => {
                   trained on the various AI concepts. Students will have
                   relevant/ employable AI skills by the time they graduate.
                 </li>
-                <li className="my-2" data-aos="fade-up">
+                <li className="my-2">
                   <span className="fw-bold text-success">M</span>eetups: We
                   organize conferences / workshops / bootcamps / hackathons with
                   the aim of providing an enabling environment for knowledge
@@ -96,12 +96,12 @@ const About = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>
-              <h2 data-aos="flip-left">
+              <h2 className="text-dark">
                 Our <span className="text-danger">Vision</span>
               </h2>
             </Accordion.Header>
             <Accordion.Body>
-              <p data-aos="fade-up-right">
+              <p>
                 To provide technical AI skills to students and tech To promote
                 the use of artificial intelligence in solving real-world
                 problems in Ghana, Africa and beyond.
