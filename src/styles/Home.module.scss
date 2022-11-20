@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.hero_text {
+  font-size: 5rem;
+
+  @media screen and (max-width: 700px) {
+    font-size: 3rem;
+  }
+}
 .about {
   @media screen and (max-width: 700px) {
     flex-direction: column-reverse;

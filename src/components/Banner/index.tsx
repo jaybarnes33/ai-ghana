@@ -29,8 +29,8 @@ const Banner = ({ title, image, effective, revised }: IBannerProps) => {
             background: rgba(66, 78, 78, 1) url(${image});
             background-blend-mode: overlay;
             height: 40vh;
-            background-size: contain;
-            background-position: bottom center;
+            background-size: cover;
+            background-position: center;
             display: grid;
             place-items: center;
           }

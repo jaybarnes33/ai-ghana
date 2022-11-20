@@ -14,10 +14,13 @@ export default function Home() {
       </Head>
       <section className={styles.main}>
         <Container className={styles.hero_container}>
-          <Row className="d-flex align-items-center justify-content-center">
+          <Row className="d-flex align-items-center justify-content-center py-5">
             <Col md={6}>
               <div>
-                <h1 className="text-capitalize" data-aos="fade-right">
+                <h1
+                  className={`${styles.hero_text} text-capitalize`}
+                  data-aos="fade-right"
+                >
                   Articificial{" "}
                   <span className="text-primary">intelligence</span> ghana
                 </h1>

@@ -38,6 +38,14 @@ h2 {
 
 section {
   padding: 3rem 0;
+
+  h2 {
+    font-size: 3rem;
+
+    @media screen and (max-width: 700px) {
+      font-size: 2rem;
+    }
+  }
 }
 
 section:nth-child(even) {
@@ -49,5 +57,5 @@ section:nth-child(even) {
 }
 
 footer {
-  background-color: #ccc;
+  background-color: rgb(243, 231, 231);
 }
