@@ -61,4 +61,12 @@ section:nth-child(even) {
 
 footer {
   background-color: rgb(243, 231, 231);
+
+  a {
+    transition: all ease-in 300ms;
+    :hover {
+      color: var(--bs-primary);
+      transform: scale(1.1);
+    }
+  }
 }

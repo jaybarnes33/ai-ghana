@@ -61,11 +61,11 @@ export default function Home() {
               <Image
                 data-aos="flip-right"
                 data-aos-delay={1300}
-                src={vector}
+                src="/about.jpg"
                 alt=""
-                width={350}
-                height={350}
-                objectFit="contain"
+                width={450}
+                height={450}
+                objectFit="cover"
               />
             </Col>
             <Col md={6}>
@@ -111,11 +111,11 @@ export default function Home() {
             <Col md={6} className="d-flex justify-content-center">
               <Image
                 data-aos="flip-right"
-                src={vector}
+                src="/contact.jpg"
                 alt=""
-                width={350}
-                height={350}
-                objectFit="contain"
+                width={450}
+                height={450}
+                objectFit="cover"
               />
             </Col>
           </Row>
@@ -127,11 +127,11 @@ export default function Home() {
             <Col md={6} className="d-flex justify-content-center">
               <Image
                 data-aos="flip-right"
-                src={vector}
+                src="/mission.jpg"
                 alt=""
-                width={350}
-                height={350}
-                objectFit="contain"
+                width={450}
+                height={450}
+                objectFit="cover"
               />
             </Col>
             <Col md={6}>

@@ -37,16 +37,17 @@ const Socials = () => {
     },
   ];
   return (
-    <div className="d-flex gap-3">
+    <div className="d-flex gap-3 my-2">
       {socials.map((social) => (
-        <Link
+        <a
           href={social.link}
           key={social.name}
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer"
+          style={{ cursor: "pointer" }}
         >
           {social.icon}
-        </Link>
+        </a>
       ))}
     </div>
   );
