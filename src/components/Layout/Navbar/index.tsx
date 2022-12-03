@@ -6,8 +6,10 @@ const index = () => {
   return (
     <Navbar collapseOnSelect expand="lg" fixed="top">
       <Container className="d-flex align-items-center">
-        <Navbar.Brand href="#home">
-          <Logo />
+        <Navbar.Brand>
+          <Link href="/">
+            <Logo />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
