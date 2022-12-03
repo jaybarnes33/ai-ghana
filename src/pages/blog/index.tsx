@@ -10,6 +10,9 @@ const Blog = ({ posts }: { posts: Record<string, any>[] }) => {
       <Banner title="Blog" image="/about.jpg" />
 
       <Container>
+        <h1 className="text-center">
+          Latest <span className="text-primary">Articles</span>
+        </h1>
         <Row className="mt-2">
           {posts?.map((post) => (
             <Col xs={6} md={4} key={post.slug} className="shadow py-3 px-3">
